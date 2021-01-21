@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Spicy Chicken Delux",
+      "description": "A boneless breast of chicken seasoned with a spicy blend of peppers, hand-breaded, pressure cooked in 100% refined peanut oil and served on a toasted, buttered bun with dill pickle chips, Green Leaf lettuce, tomato and Pepper Jack Cheese. Gluten-free bun or multigrain bun also available at an additional cost.",
+      "imageUrl": "https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/copycat-chick-fil-a-spicy-deluxe-chicken-sandwich-2448932.jpg",
+      "price": 5.49
+    },
+    {
+      "id": 2,
+      "name": "Spicy Chicken",
+      "description": "A boneless breast of chicken seasoned with a spicy blend of peppers, hand-breaded, pressure cooked in 100% refined peanut oil and served on a toasted, buttered bun with dill pickle chips. Gluten-free bun or multigrain bun also available at an additional cost.",
+      "imageUrl": "https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/spicy-fried-chicken-sandwich-4b33adac774405e86bd9d804.jpg",
+      "price": 4.49
+    },
+    {
+      "id": 3,
+      "name": "Tender",
+      "description": "Boneless chicken tenders marinated in special seasonings, freshly-breaded and pressure cooked in 100% refined peanut oil. Available in 3-count or 4-count entrées with choice of dipping sauce.",
+      "imageUrl": "https://readyseteat.com/sites/g/files/qyyrlu501/files/uploadedImages/img_4031_1469.JPEG",
+      "price": 5.69
+    },
+    {
+      "id": 4,
+      "name": "Chicken Nuggets",
+      "description": "Bite-sized pieces of boneless chicken breast, seasoned to perfection, freshly-breaded and pressure cooked.Available with choice of dipping sauce.",
+      "imageUrl": "https://www.eatthis.com/wp-content/uploads//media/images/ext/340536388/chicken-nuggets.jpg",
+      "price": 3.59
+    },
+    {
+      "id": 5,
+      "name": "Grilled Chicken Sandwich",
+      "description": "A lemon-herb marinated boneless breast of chicken, grilled for a tender and juicy backyard-smoky taste, served on a toasted Multigrain bun with Green Leaf lettuce and tomato. Pairs well with Honey Roasted BBQ sauce.",
+      "imageUrl": "https://www.cfacdn.com/img/order/COM/Menu_Refresh/Entree/Entree%20PDP/_0000s_0009_Final__0026_CFA_PDP_Grilled-Deluxe-Sandwich_1085.png",
+      "price": 5.15
+    },
+    {
+      "id": 6,
+      "name": "Waffle Potato Fries",
+      "description": "Waffle-shaped potatoes with the skin. Cooked in canola oil until crispy outside and tender inside.",
+      "imageUrl": "https://www.cfacdn.com/img/order/menu/Online/Sides%26treats/mediumWaffleFries_PDP.png",
+      "price": 1.95
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 2,
+        "name": "Spicy Chicken",
+        "description": "A boneless breast of chicken seasoned with a spicy blend of peppers, hand-breaded, pressure cooked in 100% refined peanut oil and served on a toasted, buttered bun with dill pickle chips. Gluten-free bun or multigrain bun also available at an additional cost.",
+        "imageUrl": "https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/spicy-fried-chicken-sandwich-4b33adac774405e86bd9d804.jpg",
+        "price": 4.49
+      },
+      "id": 1
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

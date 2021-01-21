@@ -1,0 +1,33 @@
+<div class="card mb-4 shadow-sm">
+    <img class="bd-placeholder-img card-img-top" width="100%" [src]="productItem.imageUrl"/>
+
+    <div class="card-body">
+      <p class="card-text">
+        <strong>{{ productItem.price | currency }}</strong>
+        <i *ngIf = "addedToWishlist" class="fas fa-heart float-right" (click)="handleRemoveFromWishList()"></i>
+        <i *ngIf = "!addedToWishlist" class="far fa-heart float-right" (click)="handleAddToWishList()"></i>
+        <!-- <i class="far fa-heart float-right"></i> -->
+        <!-- <span style="float:right"><small class="text-muted"> 400 Calories </small></span> -->
+      </p>
+      <Strong>{{ productItem.name }}</Strong>
+      <hr>
+      <!-- <p class="card-text">{{ productItem.description | slice: 0:100 }}</p> -->
+      <div *ngIf="!isCollapsed">
+        <p class="card-text">{{ productItem.description | slice: 0:500 }}</p>
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+          <button 
+          type="button" 
+          class="btn btn-sm btn-primary"
+          (click)="handleAddToCart()"
+          >Add to Cart</button>
+          <button 
+          type="button" 
+          class="btn btn-sm btn-outline-secondary"
+          (click)="toggle()" 
+          >View/Hide Details</button>
+        </div>
+      </div>
+    </div>
+</div>
